@@ -1,0 +1,5 @@
+#surefire
+#Tue Feb 13 23:59:16 UTC 2024
+basedir=/home/ec2-user/final-project/server
+user.dir=/home/ec2-user/final-project/server
+localRepository=/home/ec2-user/.m2/repository

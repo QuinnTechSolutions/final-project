@@ -34,7 +34,7 @@
 	  <plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
-		<version>0.8.12-SNAPSHOT</version>
+		<version>0.8.6</version>
 		<executions>
 			<execution>
 				<id>default-prepare-agent</id>
@@ -203,6 +203,11 @@
 
   <dependencyManagement>
     <dependencies>
+	  <dependency>
+		<groupId>org.jacoco</groupId>
+		<artifactId>jacoco-maven-plugin</artifactId>
+		<version>0.8.6</version>
+	  </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>servlet-api</artifactId>
